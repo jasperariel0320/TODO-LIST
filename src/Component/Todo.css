@@ -1,0 +1,88 @@
+.todo-container {
+    background-color: white;
+    width: 50vh;
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+section {
+    background-color:#8f13fd ;
+}
+
+.heading-content {
+    font-weight: 600;
+}
+
+.container-items {
+    height: 50vh;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8f13fd;
+    border-radius: 5px;
+}
+
+.icon {
+    color: gray;
+    cursor: pointer
+}
+
+.icon:hover {
+    color: red;
+}
+
+.itemList {
+    /* background-color: #8f13fd; */
+    /* color: #fff; */
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.icon {
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.main-container {
+    height: 100vh;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #8f13fd;
+    border-radius: 0;
+}
+
+.list-items {
+    font-weight: 600;
+    color: #8f13fd;
+}
+
+.buton {
+    border: none;
+    width: 150px;
+    height: 7%;
+    position: absolute;
+    top: 80%;
+    left: 53%;
+    background-color: #8f13fd;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.remove {
+    border: none;
+    width: 150px;
+    height: 7%;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    background-color: #8f13fd;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
